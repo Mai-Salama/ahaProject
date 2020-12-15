@@ -9,6 +9,7 @@ portal.listen(PORT,()=>{
 const Members = require('./models/AcademicMember');
 
 //testing here
+//wanting to commit
 portal.use(express.json());
 portal.use(express.urlencoded({extended:false}));
 

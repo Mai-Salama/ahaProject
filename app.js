@@ -17,7 +17,6 @@ const AnnulaLeave = require('./models/AnnualLeave');
 const AccidentalLeave = require('./models/SickLeave');
 const SickLeave = require('./models/SickLeave');
 
-
 //testing here
 //wanting to commit
 portal.use(express.json());
@@ -34,3 +33,18 @@ mongoose.connect(url,connectionParams).then(()=>{
 }).catch((error)=>{
     console.log(error)
 });
+
+
+portal.get('/login',(req,res)=>{
+   res.send(login);  
+});
+
+portal.post('/login',(req,res)=>{
+    //check if the user exists
+    //check el username w el password 
+});
+
+
+
+
+

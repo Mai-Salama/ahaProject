@@ -10,6 +10,7 @@ const schedule = mongoose.Schema({
     fourth:{type:Object},
     fifth:{type:Object},
 });
+
 //module.exports= mongoose.model('Schedule', schedule);
 //const schedule = require('./Schedule');
 const members = mongoose.Schema({
@@ -36,9 +37,9 @@ maternityLeave:{type:Number},
 sickLeave:{type:Number},
 scheduleFlag:{type:Boolean},
 office:{type:String},
-defaultSchedule:{type: schedule},
-nextWeekUpdated:{type: schedule},
-thisWeekUpdated:{type: schedule}
+defaultSchedule: schedule,
+nextWeekUpdated: schedule,
+thisWeekUpdated: schedule
      
 });
 //export schema as a model

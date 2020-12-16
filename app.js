@@ -7,6 +7,13 @@ portal.listen(PORT,()=>{
 });
 
 const Members = require('./models/AcademicMember');
+const HrMembers = require('./models/HrMembers');
+const ReplacementRequest = require('./models/ReplacementRequest');
+const MaternityRequest = require('./models/MaternityRequest');
+const CompensationRequest = require('./models/CompensationRequest');
+const slotLinkingRequests = require('./models/SlotLinkingRequest');
+const Faculties = require('./models/Faculties');
+
 
 //testing here
 //wanting to commit

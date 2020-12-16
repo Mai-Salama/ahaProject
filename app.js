@@ -13,6 +13,9 @@ const MaternityRequest = require('./models/MaternityRequest');
 const CompensationRequest = require('./models/CompensationRequest');
 const slotLinkingRequests = require('./models/SlotLinkingRequest');
 const Faculties = require('./models/Faculties');
+const AnnulaLeave = require('./models/AnnualLeave');
+const AccidentalLeave = require('./models/SickLeave');
+const SickLeave = require('./models/SickLeave');
 
 
 //testing here

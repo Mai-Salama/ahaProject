@@ -14,7 +14,7 @@ const schedule = mongoose.Schema({
 //module.exports= mongoose.model('Schedule', schedule);
 //const schedule = require('./Schedule');
 const members = mongoose.Schema({
-    id:{type:Number,
+    id:{type:String,
         required:true,
         unique:true
     },

@@ -6,5 +6,5 @@ const SickLeave = mongoose.Schema({
     date:{type:Date},
     status:{type:Number}
 });
-
+const mennamohamed = 22;
 module.exports = mongoose.model('SickLeave', SickLeave);
